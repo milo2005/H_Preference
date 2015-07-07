@@ -14,6 +14,7 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
     public static final String PREFERENCE = "preference";
+    public static final String KEY_INFO ="info";
 
     SharedPreferences preferences;
     SharedPreferences.Editor editor;
@@ -66,6 +67,8 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-
+        String info = edit.getText().toString();
+        editor.putString(KEY_INFO, info);
+        editor.commit();
     }
 }
