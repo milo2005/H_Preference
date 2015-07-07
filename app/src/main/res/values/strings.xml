@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Preference</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Ingrese un texto</string>
+    <string name="no_info">No se ha almacenado informacion</string>
+    <string name="save">Guardar</string>
+</resources>
